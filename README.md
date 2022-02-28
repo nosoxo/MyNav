@@ -1,4 +1,4 @@
-﻿#MyNav
+﻿# MyNav
 
 <p align="center">
   <a href="https://github.com/laravel/framework">
@@ -12,7 +12,7 @@
 
 使用PHP + MySQL开发的简约导航/书签管理器，欢迎体验。
 
-### 演示demo
+## Demo
 
 - MyNav：[https://mynavdemo.nosoxo.com](https://mynavdemo.nosoxo.com)
 
@@ -24,12 +24,12 @@
 
 - 演示说明：理性演示，勿删除基础数据，可自行添加数据，自行删除（数据库会定时重置抹除数据）
 
-### 运行环境
+## 运行环境
 
 Laravel 8 需要 PHP 7.3.0 或以上， PHP函数：putenv、proc_open；
 MySQL 5.7+ （版本策略）。
 
-### 部署配置
+## 部署配置
 
 - 获取代码
 ```bash
