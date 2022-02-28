@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="{{asset('static/nav/css/style.css')}}">
     <script>
         var _hmt = _hmt || [];
-        (function () {
+        (function() {
             var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?29e86ad3e85fd17c2c8246e875827c59";
+            hm.src = "https://hm.baidu.com/hm.js?aeb6126cc6d99b1d7fcf657327944508";
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
