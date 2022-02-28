@@ -38,7 +38,7 @@ class IndexController extends Controller
     }
 
     /**
-     * 获取填充数据
+     * 获取测试数据
      */
     public function seeder(){
         $links=Link::all();
