@@ -64,7 +64,7 @@ class LinkController extends Controller
         } else {
             $links = $this->repository->makeModel();
 
-            $categories = Category::all ();
+            $categories = Category::orderBy('sort','asc')->get();
 
             return view ('admin.' . $this->module_name . '.index', compact ('links','categories'));
         }
