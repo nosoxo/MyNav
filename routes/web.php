@@ -22,6 +22,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [IndexController::class,'nav']);
 Route::get('/url/{id}', [IndexController::class,'url']);
+Route::get('/seeder', [IndexController::class,'seeder']);
 
 Route::namespace ('Home')->middleware ('home')->group (function () {
     //Route::get ('/', 'IndexController@index');

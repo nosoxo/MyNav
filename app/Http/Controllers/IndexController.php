@@ -36,4 +36,14 @@ class IndexController extends Controller
         $link->save();
         return redirect($link->url);
     }
+
+    /**
+     * 获取填充数据
+     */
+    public function seeder(){
+        $links=Link::all();
+        $categories=Category::all();
+        echo(json_encode($links));
+        echo(json_encode($categories));
+    }
 }
