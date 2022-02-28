@@ -60,6 +60,8 @@ return [
         'role_has_permissions',
         'model_has_roles',
         'model_has_permissions',
+        'categories',
+        'links',
     ],
     /*
      |--------------------------------------------------------------------------
