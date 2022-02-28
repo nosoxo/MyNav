@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "学无止境",
+        "sort": 100,
+        "flag": 0,
+        "description": "学无止境"
+    },
+    {
+        "id": 2,
+        "name": "开发社区",
+        "sort": 10,
+        "flag": 0,
+        "description": "开发社区"
+    },
+    {
+        "id": 4,
+        "name": "技术博客",
+        "sort": 30,
+        "flag": 0,
+        "description": ""
+    },
+    {
+        "id": 5,
+        "name": "开发文档",
+        "sort": 40,
+        "flag": 0,
+        "description": ""
+    },
+    {
+        "id": 6,
+        "name": "实用工具",
+        "sort": 50,
+        "flag": 0,
+        "description": ""
+    },
+    {
+        "id": 7,
+        "name": "设计资源",
+        "sort": 60,
+        "flag": 0,
+        "description": ""
+    },
+    {
+        "id": 8,
+        "name": "网络运营",
+        "sort": 70,
+        "flag": 0,
+        "description": ""
+    },
+    {
+        "id": 9,
+        "name": "泄露查询",
+        "sort": 90,
+        "flag": 0,
+        "description": "数据泄露查询"
+    },
+    {
+        "id": 10,
+        "name": "我的博客",
+        "sort": 1,
+        "flag": 0,
+        "description": ""
+    },
+    {
+        "id": 11,
+        "name": "服务器监控",
+        "sort": 5,
+        "flag": 0,
+        "description": ""
+    },
+    {
+        "id": 12,
+        "name": "资源共享",
+        "sort": 3,
+        "flag": 0,
+        "description": ""
+    },
+    {
+        "id": 13,
+        "name": "私有标签",
+        "sort": 0,
+        "flag": 0,
+        "description": "私有标签，登录后显示"
+    },
+    {
+        "id": 14,
+        "name": "刷步数",
+        "sort": 89,
+        "flag": 0,
+        "description": ""
+    },
+    {
+        "id": 15,
+        "name": "发卡网站",
+        "sort": 11,
+        "flag": 0,
+        "description": ""
+    },
+    {
+        "id": 16,
+        "name": "我的图床",
+        "sort": 2,
+        "flag": 0,
+        "description": ""
+    }
+]
