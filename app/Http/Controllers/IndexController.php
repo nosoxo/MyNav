@@ -43,7 +43,7 @@ class IndexController extends Controller
     public function seeder(){
         $links=Link::all();
         $categories=Category::all();
-        echo(json_encode($links,JSON_UNESCAPED_UNICODE));
-        echo(json_encode($categories,JSON_UNESCAPED_UNICODE));
+        echo(json_encode($links,JSON_UNESCAPED_SLASHES));
+        echo(json_encode($categories,JSON_UNESCAPED_SLASHES));
     }
 }
