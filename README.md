@@ -14,17 +14,22 @@
 
 ### 演示demo
 
-- MyNav：[https://mynav.nosoxo.com](https://mynav.nosoxo.com)
+- MyNav：[https://mynavdemo.nosoxo.com](https://mynavdemo.nosoxo.com)
 
-- 后台地址：[https://mynav.nosoxo.com/admin](https://mynav.nosoxo.com/admin)
+- 后台地址：[https://mynavdemo.nosoxo.com/admin](https://mynavdemo.nosoxo.com/admin)
 
 - 账号：admin
 
-- 密码：admin
+- 密码：123456
 
-- 演示说明：理性演示，误删除基础数据，可自行添加数据，自行删除（数据库会定时重置抹除数据）
+- 演示说明：理性演示，勿删除基础数据，可自行添加数据，自行删除（数据库会定时重置抹除数据）
 
-### 如何使用
+### 运行环境
+
+Laravel 8 需要 PHP 7.3.0 或以上， PHP函数：putenv、proc_open；
+MySQL 5.7+ （版本策略）。
+
+### 部署配置
 
 - 获取代码
 ```bash
@@ -37,7 +42,6 @@ cp .env.example .env #配置文件
 ```bash
 php artisan key:generate
 ```
-``
 - 数据库表迁移
 ```bash
 php artisan migrate
@@ -54,13 +58,25 @@ php artisan storage:link
 ```bash
 php artisan serve
 ```
+- 网站运行目录和伪静态
+
+    运行目录为public
+
+    伪静态：
+```bash
+location / {  
+  try_files $uri $uri/ /index.php$is_args$query_string;  
+  }
+```
 - 项目访问
     
-  后台地址：`http://d/admin`
+  MyNav地址：`http://localhost`
+
+  后台地址：`http://localhost/admin`
 
   后台账号：admin
 
-  后台密码：123456（生产环境必须修改密码）
+  后台密码：123456
 
 ## 许可证
 
