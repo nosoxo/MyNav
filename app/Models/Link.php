@@ -20,7 +20,7 @@ class Link extends Model
         'url',
         'sort',
         'flag',
-        'description'
+        'description',
     ];
     /**
      * 默认属性值

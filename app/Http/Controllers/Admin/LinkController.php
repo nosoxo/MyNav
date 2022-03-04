@@ -64,6 +64,7 @@ class LinkController extends Controller
             $links = Link::leftJoin('categories', 'categories.id', '=', 'category_id')->select('links.*', 'categories.name AS category_name', 'categories.sort AS category_sort')->orderBy('category_sort')->orderBy('sort');
             if (array_get($request, 'searchParams')) {
                 $arr = json_decode(array_get($request, 'searchParams', []), true);
+                $searchParams=[];
                 if (is_array($arr)) {
                     foreach ($arr as $key => $val) {
                         $searchParams[$key] = $val;
@@ -83,7 +84,7 @@ class LinkController extends Controller
                     $links->where('url', 'like', "%$url%");
                 }
                 if ($description) {
-                    $links->where('description', 'like', "%$description%");
+                    $links->where('links.description', 'like', "%$description%");
                 }
             }
             $links = $links->paginate($limit);
