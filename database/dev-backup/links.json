@@ -180,16 +180,6 @@
         "click": 0
     },
     {
-        "id": 21,
-        "category_id": 13,
-        "title": "Bitwarden",
-        "url": "https://pwd.nosoxo.com/",
-        "description": "最值得信赖的商业开源密码管理器\nBitwarden 为团队和个人提供了最简单、最安全的方式来存储和共享来自任何设备的敏感数据。",
-        "sort": 1,
-        "flag": 0,
-        "click": 0
-    },
-    {
         "id": 22,
         "category_id": 6,
         "title": "在线短视频去水印解析",
@@ -226,16 +216,6 @@
         "url": "https://api.nosoxo.com/",
         "description": "",
         "sort": 1,
-        "flag": 0,
-        "click": 0
-    },
-    {
-        "id": 26,
-        "category_id": 13,
-        "title": "x-ui",
-        "url": "https://x-ui.nosoxo.com/",
-        "description": "支持多协议多用户的 xray 面板",
-        "sort": 10,
         "flag": 0,
         "click": 0
     },
