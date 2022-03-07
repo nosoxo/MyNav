@@ -205,7 +205,7 @@
                 iniUrl: '{{route ('admin.main.init')}}',    // 初始化接口
                 clearUrl: "{{route ('admin.main.clear')}}", // 缓存清理接口
                 urlHashLocation: true,      // 是否打开hash定位
-                bgColorDefault: 1,      // 主题默认配置
+                bgColorDefault: 2,      // 主题默认配置
                 multiModule: true,          // 是否开启多模块
                 menuChildOpen: false,       // 是否默认展开菜单
                 loadingTime: 0.0001,             // 初始化加载时间
