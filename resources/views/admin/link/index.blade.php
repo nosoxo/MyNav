@@ -96,6 +96,7 @@
                     {field: 'description', title: '描述', width: 180, hide: false},
                     {field: 'sort', title: '排序号', width: 80, align: 'center', hide: false, sort: true},
                     {field: 'flag', title: '隐藏',width: 80, align: 'center'},
+                    {field: 'click', title: '点击次数',width: 80, align: 'center'},
                     {title: '操作', width: 220, templet: '#currentTableBar', fixed: "right", align: "center"}
                 ]],
                 limits: [10, 15, 20, 25, 50, 100],
