@@ -66,8 +66,8 @@
             <footer class="footer">
                 <div class="copyright">
                     <div>
-                        Copyright © 2018- 2050
-                        <a href="http://www.nosoxo.com">nosoxo</a>
+                        Copyright © 2022 Powered by
+                        <a href="https://github.com/nosoxo/MyNav/">MyNav</a>.
                     </div>
                 </div>
             </footer>
