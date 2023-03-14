@@ -21,7 +21,7 @@
  * @Author: nosoxo loyo0801@gmail.com
  * @Date: 2023-03-13 13:05:29
  * @LastEditors: nosoxo loyo0801@gmail.com
- * @LastEditTime: 2023-03-13 13:08:32
+ * @LastEditTime: 2023-03-14 17:59:48
  * @Description: 
  * @
  * @Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
@@ -69,11 +69,12 @@
                     <input type="number" name="Link[sort]" value="{{$link->sort ?? ''}}" maxlength="100" autocomplete="off" placeholder="" class="layui-input">
                 </div>
             </div>
+            
             <div class="layui-form-item">
                 <label class="layui-form-label">是否私有 <span class="color-red">*</span></label>
                 <div class="layui-input-block">
-                    <input type="radio" name="Link[flag]" value="1" title="是" {{ $Link->flag === 1 ? 'checked' : '' }}>
-                    <input type="radio" name="Link[flag]" value="0" title="否" {{ $Link->flag === 0 ? 'checked' : '' }}>
+                    <input type="radio" name="Link[flag]" value="1" title="是" {{ $link->flag === 1 ? 'checked' : '' }}>
+                    <input type="radio" name="Link[flag]" value="0" title="否" {{ $link->flag === 0 ? 'checked' : '' }}>
                 </div>
             </div>
             <div class="layui-form-item layui-form-text">
